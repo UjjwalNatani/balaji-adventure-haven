@@ -1,6 +1,6 @@
 
 import React from "react";
-import { SwimmingPool, ParkOutline, Users2, Tent, Park, Utensils } from "lucide-react";
+import { Waves, TreePine, Users2, Tent, UtensilsCrossed, Landmark } from "lucide-react";
 
 // Feature card component
 const FeatureCard = ({ icon: Icon, title }: { icon: React.ElementType; title: string }) => {
@@ -16,12 +16,12 @@ const FeatureCard = ({ icon: Icon, title }: { icon: React.ElementType; title: st
 
 const HighlightsSection = () => {
   const features = [
-    { icon: SwimmingPool, title: "Swimming Pool" },
+    { icon: Waves, title: "Swimming Pool" },
     { icon: Users2, title: "Marriage Garden" },
-    { icon: Park, title: "Park" },
+    { icon: TreePine, title: "Park" },
     { icon: Tent, title: "Rural Huts" },
-    { icon: Park, title: "Commando Exercises" },
-    { icon: Utensils, title: "Open Kitchen" },
+    { icon: Landmark, title: "Commando Exercises" },
+    { icon: UtensilsCrossed, title: "Open Kitchen" },
   ];
 
   return (
